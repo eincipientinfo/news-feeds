@@ -1,0 +1,37 @@
+.trending-list-items{
+    font-size: 12px;
+}
+.list-links{
+    color: black !important;
+}
+.main_content_trending .main_content_inner{
+    padding: 15px;
+}
+.main_content_trending .main_content_inner ul.uk-child-width-expand {
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+.main_content_trending .main_content_inner ul.uk-child-width-expand li.uk-active{
+    padding-left: 0px;
+}
+.main_content_trending .main_content_inner ul::before {
+    left: 0px;
+}
+.main_content_trending .main_content_inner ul.uk-child-width-expand .trending-list-items{
+    padding-left: 0px;
+}
+.main_content_trending .main_content_inner ul.uk-child-width-expand .trending-list-items a {
+    padding: 10px 15px;
+    font-size: 14px;
+    text-align: left;
+    line-height: 20px;
+    -webkit-transition: all .3s !important;
+    -moz-transition: all .3s !important;
+    transition: all .3s !important;
+}
+.main_content_trending .main_content_inner ul.uk-child-width-expand .trending-list-items a:hover{
+    background-color: #377dff;
+    padding-left: 24px;
+    opacity: 1;
+    color: #fff !important;
+}

@@ -1,0 +1,28 @@
+.close{
+    float:right;
+}
+.ReactModal__Content--after-open{
+    overflow-y : hidden!important;
+}
+.ReactModal__Body--open {
+    overflow-y: hidden;
+}
+.ReactModal__Content.ReactModal__Content--after-open {
+    padding: 0px 0px 20px 0px !important;
+}
+.ReactModal__Content .header-innner {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #1890ff;
+    color: #fff;
+    font-weight: 700;
+    height: 30px;
+}
+.ReactModal__Content .header-innner a.close{
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 0px 5px;
+    width: 16px;
+    text-align: center;
+    border-radius: 300px;
+}
